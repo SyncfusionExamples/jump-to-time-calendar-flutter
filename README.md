@@ -50,3 +50,13 @@ void _updateState(DateTime date) {
  });
 }
 ```
+**[View document in Syncfusion Flutter Knowledge base](https://www.syncfusion.com/kb/10943/how-can-we-move-to-specific-time-while-switching-from-month-to-day-view-in-flutter-event)**
+
+**Screenshots**
+
+![month view](http://www.syncfusion.com/uploads/user/kb/flut/flut-618/flut-618_img1.png)
+
+![day view](http://www.syncfusion.com/uploads/user/kb/flut/flut-618/flut-618_img2.png)
+
+
+
