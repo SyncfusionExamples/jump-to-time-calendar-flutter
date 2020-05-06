@@ -54,9 +54,5 @@ void _updateState(DateTime date) {
 
 **Screenshots**
 
-![month view](http://www.syncfusion.com/uploads/user/kb/flut/flut-618/flut-618_img1.png)
-
-![day view](http://www.syncfusion.com/uploads/user/kb/flut/flut-618/flut-618_img2.png)
-
-
-
+<img alt="month view"  src="http://www.syncfusion.com/uploads/user/kb/flut/flut-618/flut-618_img1.png" width="250" height="400" />|
+<img alt="day view"  src="http://www.syncfusion.com/uploads/user/kb/flut/flut-618/flut-618_img2.png" width="250" height="400" />
