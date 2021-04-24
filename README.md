@@ -11,7 +11,7 @@ String _text = '';
  
 @override
 void initState() {
-      _calendarView = CalendarView.week;
+      _calendarView = CalendarView.month;
       _text = DateFormat('MMMM yyyy').format(_jumpToTime).toString();
       super.initState();
 }
