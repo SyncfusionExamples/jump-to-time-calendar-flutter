@@ -1,23 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
   State<StatefulWidget> createState() => ScheduleExample();
 }
 
 class ScheduleExample extends State<MyApp> {
   final CalendarController _controller = CalendarController();
-  DateTime _jumpToTime = DateTime.now();
+  final DateTime _jumpToTime = DateTime.now();
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
- 
+
         body: SafeArea(
           child: SfCalendar(view: CalendarView.month,
             initialDisplayDate: _jumpToTime,
